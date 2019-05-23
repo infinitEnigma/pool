@@ -52,7 +52,7 @@ RUN apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 RUN apt-get install -y nodejs
 
-RUN git clone https://github.com/j4ys0n/BootNOMP.git nomp && \
+RUN git clone https://github.com/infinitEnigma/BootNOMP.git nomp && \
   cd nomp && \
   npm update
 
