@@ -7,7 +7,7 @@
 
     "clustering": {
         "enabled": true,
-        "forks": 2
+        "forks": "auto"
     },
 
     "defaultPoolConfigs": {
